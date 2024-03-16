@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  /* background: #FFCD9E; */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dweep-logo {
+  height: 50vmin;
+  margin-top: -3rem;
+    margin-left: -3rem;
+  /* margin-left: 15rem; */
+
+}
+
+.h1-custom-style {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -1rem;
+  color: black;
+  width: 180%;
+}
+
+.p-custom-style{
+  width: 130%;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+font-size: 20px;
+font-weight: 500;
+
+}
+.flex-container2 {
+  width: 150%;
+  height: 50px;
+  margin-left: -40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  column-gap: 1rem;
+
+}
+.flex-container2 > button{
+  height: 44px;
+  width: 120px;
+  top: 411px;
+  left: 136px;
+  border-radius: 8  ; 
+  border: 4; 
+  border-color: black;
+background-color: black;
+margin-left: -40px;
+
+}
+
+.flex-container2 > input{
+  height: 40px;
+  width: 200px;
+  border: 4;
+  border-color: black;
+top: 411px;
+left: 136px;
+border-radius: 8  ; 
+margin-left: 10px;
+}
+
+.flex-container {
+  width: 100%;
+  height: 700px;
+  background: #FFCD9E;
+
+  margin-top: -12rem;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 8px;
+  justify-content: space-around;
+align-items: center;
+ 
+
+}
+.flex-container> div {
+ padding:80px; 
+ margin-top: 10rem;
+ width: 300px;
+ height: 60px;
+margin:60px 
+
+}
+.flex-containerFooter{
+  width: 100%;
+  height: 300px;
+  background: black;
+  
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.left-list,
+.right-list {
+  list-style-type: none;
+  color: white; 
+  margin-left: -10rem;
+  margin-top: -20px;
+
+}
+
+.left-list ul,
+.right-list ul {
+  list-style-type: none; 
+
+
+}
+
+.left-list li,
+.right-list li {
+  margin-bottom: 10px;
+  align-items: flex-end; 
+  flex-direction: column; 
+     
+}
+
+.right-list li {
+  text-align: right; 
+}
+
+.social-icons {
+  display: flex;
+  padding: auto;
+  justify-content: flex-end; 
+}
